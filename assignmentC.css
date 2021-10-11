@@ -1,0 +1,44 @@
+:root{
+	--bgcColor: #aaa;
+}
+*{
+	margin: 0 auto;
+	outline: red solid 1px;
+}
+.context{
+	width: 50%;
+	background-color: var(--bgcColor);
+}
+.banner{
+	width: 80%;
+}
+.banner img{
+	width: 100%;
+	margin-top: 25px;
+}
+article a:hover{
+	color: red;
+}
+article p, article h2{
+	margin: 50px 15px;
+	padding: 10px;
+}
+article p{
+	background-color: #ccc;
+	border: 2px solid white;
+	margin-left: 45px;
+}
+h1{
+	margin: 15px;
+	font-size: 40px;
+}
+article h2{
+	text-decoration: underline;
+	font-size: 25px;
+	font-weight: bold;
+	color: #eee;
+}
+.context footer{
+	text-align: center;
+	padding-bottom: 15px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LAB 2</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header class="header">
+		<a href="#"><i class="navbar--icon fa fa-check"></i></a>
+		<nav class="navbar">
+			<ul class="navbar--list">
+				<li class="navbar--item"><a href="#" class="navbar--item">Assignment A</a></li>
+				<li class="navbar--item"><a href="./assignmentC.html" class="navbar--item"> Assignment C</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="questionnaire">
+		<form>
+			<label for="FirstName" >First Name:</label>
+			<input type="text" name="FirstName" class="mandatory"><br>
+
+			<label for="LastName">Last Name:</label>
+			<input type="text" name="LastName" class="mandatory"><br>
+
+			<label for="Password">Password:</label>
+			<input type="password" name="Password" class="mandatory">
+
+			<div class="animal">
+				<label >What is your favourite animal/animals?</label >
+				<input type="checkbox" name="Cat">
+				<label for="Cat">Cat</label>
+
+				<input type="checkbox" name="Dog">
+				<label for="Dog">Dog</label>
+
+				<input type="checkbox" name="Other">
+				<label for="Other">Other</label>
+			</div>
+
+			<label for="group1">What's your gender?</label>
+			<fieldset id="group1" class="mandatory">
+
+				<input type="radio" name="Gender" value="Male">Mele
+				<input type="radio" name="Gender" value="Female">Female
+				<input type="radio" name="Gender" value="Other">Other
+			</fieldset>
+		</form>
+	
+
+		<label for="cars">What's your favourite computer language</label>
+		<select name="computerLanguage" id="choice">
+  			<option value="Java">Java</option>
+  			<option value="Js">Java Script</option>
+  			<option value="C#">C#</option>
+  			<option value="Python">Python</option>
+		</select>
+
+		<label for="textArea">Why</label>
+		<textarea name="textArea" maxlength = "350">
+		
+		</textarea>
+		<button>Submit</button>
+		<button>Reset</button>
+
+	</div>
+	<div id="assignmentC">
+		<a href="./assignmentC.html">Assignment C</a>
+
+	</div>
+
+	<footer class="footer">
+		<h1 class="footer--text">Created by Łukasz Wojciechowski </h1>
+	</footer>
+
+</body>
+</html>

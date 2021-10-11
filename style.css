@@ -1,0 +1,111 @@
+*{
+	/*outline: red solid 1px;*/
+	margin: 0;
+	padding: 0;
+}
+:root{
+	--mainColor: #4a21fb;
+	--textColor: #fff;
+}
+/* Navbar */
+.header{
+	background-color: var(--mainColor);
+}
+.navbar{
+	height: 5rem;
+	
+	float: right;
+}
+.navbar--icon{
+	display: inline-block;
+	font-size: 50px;
+	color:  var(--textColor);
+}
+.navbar--list{
+	list-style-type: none;
+	padding-left: 0;
+	text-align: right;
+	display: inline-block;
+
+}
+.navbar--item{
+	display: inline;
+	padding: 7.5px;
+	margin: 25px 1.25vw;
+	color:  var(--textColor);
+	text-decoration: none;
+
+}
+
+/*footer*/
+footer{
+	margin-top: 150px;
+	background-color: var(--mainColor);
+	height: 160px;
+	color:  var(--textColor);
+}
+
+.footer--text{
+	text-align: center;
+	transform: translateY(65px);
+}
+
+#choice{
+	display: block;
+}
+/*Assignment B*/
+.questionnaire textarea{
+	display: block;
+	margin: 15px;
+	padding: 15px;
+	height: 125px;
+	width: 375px;
+	resize: none;
+}
+
+.mandatory{
+	border:red solid 1px;
+}
+.questionnaire input{
+	margin: 10px;
+	padding: 10px;
+
+}
+.questionnaire label{
+	color: #666; 
+	font-size: 20px;
+}
+
+.questionnaire button{
+
+	height: 50px;
+	width: 100px;
+	background-color: green;
+	color: white;
+	border: none;
+	transition: 0.4s;
+}
+.questionnaire button:last-child{
+	background-color: red;
+}
+.questionnaire button:hover{
+	
+	color: #666;
+	background-color: #111;
+}
+#assignmentC{
+	
+	text-align: center;
+	margin: 25px;
+ 	padding: 25px;
+}
+#assignmentC a {
+ 	font-size: 64px;
+ 	
+}
+
+.animal, #group1, #choice{
+	margin:  25px auto;
+	padding: 25px auto;
+}
+
